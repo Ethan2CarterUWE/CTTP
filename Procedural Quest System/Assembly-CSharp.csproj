@@ -66,7 +66,6 @@
     <Compile Include="Assets\Scripts\AiValues.cs" />
     <Compile Include="Assets\Scripts\GOAP\GAction.cs" />
     <Compile Include="Assets\Scripts\GOAP\GAgent.cs" />
-    <Compile Include="Assets\Scripts\GOAP\GAgentEditor.cs" />
     <Compile Include="Assets\Scripts\GOAP\GAgentVisual.cs" />
     <Compile Include="Assets\Scripts\GOAP\GInventory.cs" />
     <Compile Include="Assets\Scripts\GOAP\GPlanner.cs" />
@@ -126,31 +125,31 @@
     <Compile Include="Assets\Scripts\QuestGeneration\QuestScript\UIStep.cs" />
     <Compile Include="Assets\Scripts\QuestGeneration\QUESTSTATE.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:/Portfolio/BACKUP/bak2/Procedural Quest System/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>E:/Portfolio/BACKUP/HereItGoes/CTTP/Procedural Quest System/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

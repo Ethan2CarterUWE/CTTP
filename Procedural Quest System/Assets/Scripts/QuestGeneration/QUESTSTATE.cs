@@ -198,8 +198,8 @@ public class QUESTSTATE : GAction
                 ThirdNumber++;
             }
         }
-
-       // Debug.Log("FirstNum: " + FirstNumber + "SecondNum: " + SecondNumber + "ThirdNum: " + ThirdNumber);
+         
+        Debug.Log("FirstNum: " + FirstNumber + " SecondNum: " + SecondNumber + " ThirdNum: " + ThirdNumber);
     }
 
     public void typeofquest()
@@ -314,8 +314,8 @@ public class QUESTSTATE : GAction
 
         playstyleAIWeighting();
 
-       /* Debug.Log("array check:" + actualValues[0] + (",") + actualValues[1] + (",") + actualValues[2] + (",") + actualValues[3] + (",") + actualValues[4] +
-            (",") + actualValues[5] + (",") + actualValues[6] + (",") + actualValues[7] + (",") + actualValues[8] + (",") + actualValues[9]);*/
+        Debug.Log("array check:" + actualValues[0] + (",") + actualValues[1] + (",") + actualValues[2] + (",") + actualValues[3] + (",") + actualValues[4] +
+            (",") + actualValues[5] + (",") + actualValues[6] + (",") + actualValues[7] + (",") + actualValues[8] + (",") + actualValues[9]);
 
 
         int comb1 = FirstNumber + SecondNumber;

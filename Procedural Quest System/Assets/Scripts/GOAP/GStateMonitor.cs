@@ -43,8 +43,7 @@ public class GStateMonitor : MonoBehaviour
                 stateFound = false;
                 stateStrength = initialStrength;
                 beliefs.RemoveState(state);
-              /*  GWorld.Instance.GetQueue(queueName).AddResource(p);
-                GWorld.Instance.GetWorld().ModifyState(worldState, 1);*/
+             
             }
         }
     }

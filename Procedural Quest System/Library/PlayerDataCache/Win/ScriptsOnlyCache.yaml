@@ -1,32 +1,57 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AiValues
     - BEARS
+    - BuildDefense
+    - CollectItem
+    - DeliverItem
+    - ExploreCave
+    - ExploreMountain
     - Farmer
+    - FindMushroom
+    - FinishPersonalQuest
     - FinishQuest
+    - FinishRandomQuest
     - GAgentVisual
     - GoToCastle
     - GoToCave
     - GoToForrest
     - GoToGraveyard
     - GoToMountain
-    - GoToShrine
-    - GoToVillage
     - Guard
     - Hunter
+    - Investigate
     - KillCaveThing
     - KillIceBears
     - KillIceWolves
     - KillWolves
+    - KillZombie
     - King
     - LumberJack
     - Merchant
     - Miner
     - QUESTSTATE
     - QuestManager
+    - RepairBridge
+    - TurnTracker
+    - UIStep
+    - WorldFarmer
+    - WorldHunter
+    - WorldKing
+    - WorldLumberJack
+    - WorldMarket
+    - WorldMerchant
+    - WorldMiner
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Main.unity:
     - Class: 1
@@ -60,52 +85,102 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9682}
+      Script: {instanceID: 9650}
     - Class: 114
-      Script: {instanceID: 9798}
+      Script: {instanceID: 9680}
+    - Class: 114
+      Script: {instanceID: 9712}
+    - Class: 114
+      Script: {instanceID: 9760}
+    - Class: 114
+      Script: {instanceID: 9796}
+    - Class: 114
+      Script: {instanceID: 9810}
+    - Class: 114
+      Script: {instanceID: 9812}
     - Class: 114
       Script: {instanceID: 9838}
     - Class: 114
-      Script: {instanceID: 9966}
+      Script: {instanceID: 9848}
     - Class: 114
-      Script: {instanceID: 10008}
+      Script: {instanceID: 9912}
     - Class: 114
-      Script: {instanceID: 10342}
+      Script: {instanceID: 9968}
     - Class: 114
-      Script: {instanceID: 10422}
+      Script: {instanceID: 10062}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 10096}
     - Class: 114
-      Script: {instanceID: 10532}
+      Script: {instanceID: 10200}
     - Class: 114
-      Script: {instanceID: 10758}
+      Script: {instanceID: 10212}
     - Class: 114
-      Script: {instanceID: 10852}
+      Script: {instanceID: 10248}
     - Class: 114
-      Script: {instanceID: 10924}
+      Script: {instanceID: 10354}
     - Class: 114
-      Script: {instanceID: 10994}
+      Script: {instanceID: 10370}
     - Class: 114
-      Script: {instanceID: 11002}
+      Script: {instanceID: 10378}
     - Class: 114
-      Script: {instanceID: 11038}
+      Script: {instanceID: 10436}
     - Class: 114
-      Script: {instanceID: 11062}
+      Script: {instanceID: 10486}
     - Class: 114
-      Script: {instanceID: 11130}
+      Script: {instanceID: 10496}
     - Class: 114
-      Script: {instanceID: 11144}
+      Script: {instanceID: 10498}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 10550}
     - Class: 114
-      Script: {instanceID: 11276}
+      Script: {instanceID: 10558}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 10570}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 10644}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 10748}
+    - Class: 114
+      Script: {instanceID: 10782}
+    - Class: 114
+      Script: {instanceID: 10876}
+    - Class: 114
+      Script: {instanceID: 10930}
+    - Class: 114
+      Script: {instanceID: 10950}
+    - Class: 114
+      Script: {instanceID: 11028}
+    - Class: 114
+      Script: {instanceID: 11064}
+    - Class: 114
+      Script: {instanceID: 11072}
+    - Class: 114
+      Script: {instanceID: 11088}
+    - Class: 114
+      Script: {instanceID: 11156}
+    - Class: 114
+      Script: {instanceID: 11170}
+    - Class: 114
+      Script: {instanceID: 11172}
+    - Class: 114
+      Script: {instanceID: 11296}
+    - Class: 114
+      Script: {instanceID: 11302}
+    - Class: 114
+      Script: {instanceID: 11306}
+    - Class: 114
+      Script: {instanceID: 11354}
+    - Class: 114
+      Script: {instanceID: 11410}
+    - Class: 114
+      Script: {instanceID: 11432}
+    - Class: 114
+      Script: {instanceID: 11480}
+    - Class: 114
+      Script: {instanceID: 11500}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -113,15 +188,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     - Class: 238
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Shortcut
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -154,10 +229,10 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
+      Hash: 08e39271b7848701d49ed1460c4ce786
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GoToKing
+    className: BuildDefense
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -202,6 +277,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 4da28c84b224d8d5f757cc539815755e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldFarmer
+  - hash:
+      serializedVersion: 2
       Hash: 06a330481ec400be50745bb7faf76bd0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -226,16 +307,16 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 895aa61d37e3b9452f9e853ad59bae8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldMiner
+  - hash:
+      serializedVersion: 2
       Hash: 89498a9a4a6296605faa18a2c5f758a4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: fd7dd902f7ce64cc410868c7ee2a6432
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QUESTGEN
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -254,6 +335,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExploreMountain
   - hash:
       serializedVersion: 2
       Hash: fc9fdcd492d4d986d6118950d83e305b
@@ -316,6 +403,12 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomQuest
+  - hash:
+      serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -328,6 +421,12 @@ ScriptsOnlyBuild:
     className: GStateMonitor
   - hash:
       serializedVersion: 2
+      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KillZombie
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -338,6 +437,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: fc4892ed4f81e65eb6fe7fc6f312d893
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldMarket
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -356,6 +461,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 801206c85f80628dc947cc9b63cd8e3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Investigate
+  - hash:
+      serializedVersion: 2
+      Hash: c698b1e00a7262fcacc0ec67e3b42819
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIStep
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -400,6 +517,18 @@ ScriptsOnlyBuild:
     className: KillIceBears
   - hash:
       serializedVersion: 2
+      Hash: 56d0a616571ae95542b5c1ee39883ab2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldMerchant
+  - hash:
+      serializedVersion: 2
+      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishPersonalQuest
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -415,12 +544,6 @@ ScriptsOnlyBuild:
       Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: FindQuest
-  - hash:
-      serializedVersion: 2
-      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
     className: Guard
   - hash:
       serializedVersion: 2
@@ -430,22 +553,28 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 864cef84cca29c147a035f7c96d75921
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FindMushroom
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: c7f21c0e6629644139b0c6d86ec0db8f
+      Hash: 20f95a9afbf4a8643318547032f1ed12
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QUESTSTATE
   - hash:
       serializedVersion: 2
-      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
+      Hash: 53ff4b905aaa5a31bab623119011fff9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PickBerries
+    className: WorldLumberJack
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -454,10 +583,22 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecoverItem
+  - hash:
+      serializedVersion: 2
       Hash: fbe304a5eb15c4e762359a40baba602a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GAgentVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 2ec994af42f7f8f7c0962d890aace0b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TurnTracker
   - hash:
       serializedVersion: 2
       Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
@@ -484,10 +625,22 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RepairBridge
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e2a07bcfa9c49819845ece9e3aa799e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldKing
   - hash:
       serializedVersion: 2
       Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
@@ -562,6 +715,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 263e34050866a8be8cd298647c7232f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AiValues
+  - hash:
+      serializedVersion: 2
       Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -592,7 +751,7 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: afa286763c187f2b0b404445dd5ab061
+      Hash: 11d4922cf07e8dde26bb268d1a2697d3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinishQuest
@@ -628,6 +787,12 @@ ScriptsOnlyBuild:
     className: GoToGraveyard
   - hash:
       serializedVersion: 2
+      Hash: 0ae25960c5592e5ed083e4da15feded6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldHunter
+  - hash:
+      serializedVersion: 2
       Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -644,6 +809,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 11d4922cf07e8dde26bb268d1a2697d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishRandomQuest
   - hash:
       serializedVersion: 2
       Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
@@ -670,13 +841,7 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 17d9c062d47d99c080f86a0f211d98b8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Food
-  - hash:
-      serializedVersion: 2
-      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
+      Hash: e736c13530ef6d9482eb7d24d12adc22
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DeliverItem
@@ -728,12 +893,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 7ca484d794cbfe3dedf7a3b39a45daf6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EXPLOR
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -791,4 +950,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: E:/Portfolio/New folder/New folder/Procedural Quest System.exe
+  playerPath: E:/Portfolio/BACKUP/HereItGoes/CTTP/BUILD/Procedural Quest System.exe

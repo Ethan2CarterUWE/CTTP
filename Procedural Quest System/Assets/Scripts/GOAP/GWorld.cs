@@ -42,28 +42,11 @@ public sealed class GWorld
 {
     private static readonly GWorld instance = new GWorld();
     private static WorldStates world;
-   /* private static ResourceQueue patients;
-    private static ResourceQueue cubicles;
-    private static ResourceQueue offices;
-    private static ResourceQueue toilets;
-    private static ResourceQueue puddles;*/
     private static Dictionary<string, ResourceQueue> resources = new Dictionary<string, ResourceQueue>();
 
     static GWorld()
     {
         world = new WorldStates();
-       /* patients = new ResourceQueue("","",world);
-        resources.Add("patients", patients);
-        cubicles = new ResourceQueue("Cubicle", "FreeCubicle", world);
-        resources.Add("cubicles", cubicles);
-        offices = new ResourceQueue("Office", "FreeOffice", world);
-        resources.Add("offices", offices);
-        toilets = new ResourceQueue("Toilet", "FreeToilet", world);
-        resources.Add("toilets", toilets);
-        puddles = new ResourceQueue("Puddle", "FreePuddle", world);
-        resources.Add("puddles", puddles);*/
-
-
         Time.timeScale = 5;
     }
 
